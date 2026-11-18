@@ -27,17 +27,3 @@
   videos.forEach(v => io.observe(v));
 })();
 
-// Defer heavy Google Maps iframe until it approaches the viewport.
-(() => {
-  const frames = [...document.querySelectorAll('iframe[data-src]')];
-  if (!frames.length) return;
-  const load = (frame) => { if (!frame.src && frame.dataset.src) { frame.src = frame.dataset.src; } };
-  if ('IntersectionObserver' in window) {
-    const io = new IntersectionObserver((entries, obs) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) { load(entry.target); obs.unobserve(entry.target); }
-      });
-    }, { rootMargin: '500px 0px' });
-    frames.forEach(frame => io.observe(frame));
-  } else { frames.forEach(load); }
-})();
