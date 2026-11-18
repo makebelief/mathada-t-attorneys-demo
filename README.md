@@ -1,7 +1,3 @@
-# Mathada T Attorneys Demo Website
+# Mathada T Attorneys — Nabwire UI Replica
 
-Static multi-page website built for Vercel.
-
-Pages: Home, About, Practice Areas, Our Attorney, Insights, Contact, Privacy, Terms.
-
-All firm photography is bundled locally in responsive WebP variants, including 3840px long-edge versions. Videos are bundled locally.
+Built directly from the uploaded Nabwire Obara house template. The UI structure, spacing, typography, navigation, hero system, cards, page hierarchy and footer follow that source. Only Mathada branding, colours, logo, copy, images, videos and contact information were substituted.

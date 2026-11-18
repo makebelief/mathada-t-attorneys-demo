@@ -1,5 +1,5 @@
-# Asset credits
+# Asset notes
 
-- Firm portraits, team photographs, office imagery, promotional artwork and the two videos were supplied by the user for this website build.
-- Firm/service/contact details are based on the user-supplied promotional artwork and publicly available Mathada T Attorneys listings.
-- Logo was redrawn as a scalable vector from the supplied firm branding for web clarity.
+- Mathada T Attorneys logo, portraits, team/office photographs, promotional artwork and videos were supplied by the user.
+- Legal background imagery and base UI components come from the Nabwire Obara template ZIP supplied by the user.
+- Contact/service information is based on the user-supplied promotional artwork and verified public firm listings.
